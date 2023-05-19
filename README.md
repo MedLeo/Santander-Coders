@@ -5,3 +5,5 @@
 *utilizando git push
 
 *teste com git pull
+
+*teste comando git fetch
