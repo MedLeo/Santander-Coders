@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas no HTML</title>
+</head>
+<body>
+    
+    <main>
+
+        <h1>Tabelas no HTML</h1>
+
+        <section id="estudantes">
+
+            <h2>Tabela de Alunos</h2>
+
+            <!-- tag table para tabela -->
+            <table border="1">
+                <!-- thead para linha de cabeçalho da tabela
+                dentro da thead usamos tr para criar a linha da tabela e th para criar a célula mas com o texto em negrito e centralizado -->
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>E-mail</th>
+                        <th>Matrícula</th>
+                    </tr>
+                </thead>
+
+                <!-- No tbody colocamos o conteudo da tabela, usamos tr para linha e td para a celula padrão-->
+                <tbody>
+                    <tr>
+                        <td>Carol Denvers</td>
+                        <td>carol.denver@e-mail.com</td>
+                        <td>1</td>
+                    </tr>
+
+                    <tr>
+                        <td>Peter Parker</td>
+                        <td>peter.parker@e-mail.com</td>
+                        <td>2</td>
+                    </tr>
+
+                    <tr>
+                        <td>Tony Stark</td>
+                        <td>tony.stark@e-mail.com</td>
+                        <td>3</td>
+                    </tr>
+                </tbody>
+
+            </table>
+
+        </section>
+
+        <!-- segunda tabela inicio-->
+
+        <section id="finanças">
+
+            <h2>Tabela de Despesa</h2>
+
+            <table border="1">
+
+                <thead>
+                    <tr>
+                        <th>Data</th>
+                        <th>Tipo</th>
+                        <th>Descrição</th>
+                        <th>Valor</th>
+                    </tr>                
+                </thead>
+
+                <tbody>
+                    <!-- rowspan serve para mesclar linha-->
+                    <tr>
+                        <td rowspan="2">15/06/2022</td>
+                        <td>Despesa</td>
+                        <td>Almoço</td>
+                        <td>R$35,00</td>
+                    </tr>
+
+                    <tr>
+                        <!-- <td>15/06/2022</td> deletado pois mesclamos 2 linhas na data com o rowspan -->
+                        <td>Receita</td>
+                        <td>Salário</td>
+                        <td>R$3.768,00</td>
+                    </tr>
+                </tbody>
+
+            </table>
+
+        </section>
+
+    </main>
+
+
+</body>
+</html>
