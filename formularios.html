@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tags de Formulário</title>
+</head>
+<body>
+
+    <main>
+        <h1>Tags de Formulário</h1>
+        <hr>
+        <br>
+
+        <form action="">
+
+            <div>
+                <label for="texto"> Nome:</label>
+                <input type="text" id="texto" name="nome">
+                <!-- dentro do input
+                placeholder = texto de sugestão dentro do input
+                value = info fixa dentro do input -->
+            </div>
+
+            <hr>
+
+            <div>
+                <label for="senha">Senha:</label>
+                <input type="password" id="senha" name="senha">
+            </div>
+
+            <hr>
+
+            <div>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email">
+            </div>
+
+            <hr>
+
+            <div>
+                <label for="data">Data de Nascimento:</label>
+                <input type="date" id="data" name="data">
+            </div>
+
+            <hr>
+
+            <div>
+                <label for="hora">Horário:</label>
+                <input type="time" id="hora" name="hora">
+            </div>
+
+            <hr>
+
+            <div>
+                <label for="numero">Numero:</label>
+                <input type="number" id="numero" name="numero">
+            </div>
+
+            <hr>
+
+            <div>
+                <label for="arquivo">Arquivo:</label>
+                <input type="file" id="arquivo" name="arquivo">
+            </div>
+
+            <hr>
+
+            <div>
+                <label for="link">URL:</label>
+                <input type="url" id="link" name="link">
+            </div>
+
+            <hr>
+
+            <div>
+                <label for="cor">Cor:</label>
+                <input type="color" id="cor" name="cor">
+            </div>
+
+            <hr>
+
+            <div>
+                <label for="barra">Range:</label>
+                <input type="range" id="barra" name="barra">
+            </div>
+
+            <hr>
+
+            <div>
+                <label for="checkbox">Checkbox:</label>
+                <input type="checkbox" id="checkbox" name="checkbox">
+            </div>
+
+            <hr>
+
+            <div>
+                <label for="radio">radio:</label>
+                <input type="radio" id="radio" name="radio">
+            </div>
+
+            <hr>
+
+            <div>
+                <label for="reset">Resetar</label>
+                <input type="reset" id="reset" name="reset" value="limpar">
+            </div>
+
+            <hr>
+
+            <textarea name="descrever" id="descrever" cols="30" rows="10"></textarea>
+
+            <div>
+                <!-- submit não precisa do label, por ser um botão de enviar -->
+                <input type="submit" id="submit" name="submit" value="Enviar">
+            </div>
+
+            <hr>
+
+            <div>
+                <!-- select é uma caixa de seleção, o primeiro option vai selecionado e desabilitado, assim a mensagem de selecionar aparece mas não é uma opção de escolha -->
+                <select name="select" id="select">
+                    <option value="selecione" disabled selected>Selecione uma das opções</option>
+                    <option value="receita">Receita</option>
+                    <option value="despesa">Despesa</option>
+                    <option value="transferencia">Transferência</option>
+                </select>
+            </div>
+            
+
+        </form>
+    </main>
+    
+</body>
+</html>
